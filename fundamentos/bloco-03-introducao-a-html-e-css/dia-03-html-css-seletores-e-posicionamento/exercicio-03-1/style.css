@@ -1,0 +1,49 @@
+div:hover{
+    border: 10px solid black;
+}
+
+div:nth-of-type(1){
+    background-color: blue;
+}
+
+div:nth-of-type(2){
+    background-color: yellow;
+}
+
+div:nth-of-type(3){
+    background-color: red;
+    height: 80px;
+}
+
+div:nth-of-type(4){
+    background-color: green;
+}
+
+div:nth-of-type(5){
+    background-color: orange;
+}
+
+div:nth-of-type(1) > h3 {
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+div:nth-of-type(2) > h3 {
+    font-family: monospace;
+    font-size: 22px;
+}
+
+div:nth-of-type(3) > h3 {
+    color: white;
+}
+div:nth-of-type(4) > h3 {
+    color: purple
+}
+
+div:nth-of-type(5) > h3 {
+    color: yellow
+}
+
+div:nth-child(odd) h3{
+    font-style: italic;
+}
