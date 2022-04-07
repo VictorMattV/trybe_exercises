@@ -91,7 +91,7 @@ switch (peça.toLowerCase()) {
 
 //7
 
-let media = 87;
+let media = 88;
 
 if (media >= 90){
     console.log("A");
