@@ -25,7 +25,7 @@ let result = 0;
 for(let i = 0; i < numbers.length; i+= 1){
     result += numbers[i] / 10;
 
-}
+};
 
 console.log(result);
 
@@ -36,7 +36,7 @@ let sum = 0;
 
 for (let index = 0; index < numbers.length; index += 1) {
   sum += numbers[index];
-}
+};
 
 let average = sum / numbers.length;
 
@@ -49,7 +49,7 @@ let sum = 0;
 
 for (let index = 0; index < numbers.length; index += 1) {
   sum += numbers[index];
-}
+};
 
 let average = sum / numbers.length;
 
@@ -68,7 +68,7 @@ for (let index = 1; index < numbers.length; index += 1) {
   if (numbers[index] > higherNumber) {
     higherNumber = numbers[index];
   }
-}
+};
 
 console.log(higherNumber);
 
@@ -81,7 +81,7 @@ for (let index = 0; index < numbers.length; index += 1) {
   if (numbers[index] % 2 !== 0) {
     result += 1;
   }
-}
+};
 
 if (result === 0) {
   console.log('nenhum valor ímpar encontrado');
@@ -97,7 +97,8 @@ for (let i = 0; i < numbers.length; i+= 1){
     if (numbers[0] < menorValor){
         numbers[i] = menorValor;
     }
-}
+};
+
 console.log(menorValor);
 
 //8
@@ -106,7 +107,7 @@ let novo = [];
 
 for (let i = 1; i <= 25; i+= 1){
     novo.push(i);
-}
+};
 
 console.log(novo);
 
@@ -117,6 +118,8 @@ let novo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2
 for (let i = 0; i < novo.length; i += 1) {
     console.log(novo[i] / 2);
   };
+
+
   
 
 
