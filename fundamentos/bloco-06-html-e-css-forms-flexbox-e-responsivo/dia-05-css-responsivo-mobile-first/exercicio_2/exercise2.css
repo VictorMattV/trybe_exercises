@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* small layout */
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: rgb(170, 183, 190);
+        color: black;
+        border: 2px solid rgb(87, 83, 83);
+
+    }
+
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+
+    .header-container p {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .header-container nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+    }
+
+    .header-container nav ul li {
+        padding: 10px;
+    }
+
+    body h1 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .aside-container {
+        display: flex;
+        width: 100%;
+    }
+
+    .aside-container h2 {
+        text-align: center;
+    }
+
+    .main-content {
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-content p {
+        margin: 10px;
+        text-align: left;
+    }
+
+    footer {
+        margin: 10px;
+    }
+
+}
