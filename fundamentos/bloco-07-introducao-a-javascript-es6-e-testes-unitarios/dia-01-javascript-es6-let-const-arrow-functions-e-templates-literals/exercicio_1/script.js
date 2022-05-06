@@ -1,4 +1,4 @@
-// 1
+//1
 
 const scope = escopo => {
     if (escopo === true) {
@@ -12,7 +12,7 @@ const scope = escopo => {
 }
 scope(true);
 
-// 2
+//2
 
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
