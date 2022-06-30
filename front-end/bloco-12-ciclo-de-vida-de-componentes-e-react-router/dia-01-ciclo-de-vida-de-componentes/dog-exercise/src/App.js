@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    // Se já temos uma imagem guardada, vamos mostrá-la em vez de pedir uma nova
+    //  Se já temos uma imagem guardada, vamos mostrá-la em vez de pedir uma nova
     if (localStorage.namedDogURL) {
       const parseStorage = JSON.parse(localStorage.namedDogURL);
       const lastDog = parseStorage[parseStorage.length - 1].message;
@@ -53,7 +53,7 @@ class App extends React.Component {
       name,
       array,
     } = this.state;
-    // atualizando e guardando a lista inteira de imagens no `localStorage`
+    //  atualizando e guardando a lista inteira de imagens no `localStorage`
     const dogData = { message, name };
     const newArray = [...array, dogData];
     this.setState({ array: newArray });
